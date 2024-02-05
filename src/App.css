@@ -1,0 +1,45 @@
+
+.main {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container-name {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 26px;
+}
+
+.container-name > p {
+  letter-spacing: 8px;
+  color: #e0dfe0;
+  font-size: 130px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.highlighted {
+  color: #fefefe;
+  background-color: #0d4f36;
+}
+
+.container-form > div {
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+} 
+
+@media (max-width: 600px) {
+  .container-name > p {
+    font-size: 60px;
+  }
+
+  .container-form > div {
+    gap: 6px;
+  }
+}
