@@ -1,0 +1,17 @@
+.btn {
+    margin-top: 8px;
+    background-color: #0a4730;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    width: 354px;
+}
+
+@media (max-width: 600px) {
+    .btn {
+        width: 318px;
+    }
+}
